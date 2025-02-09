@@ -13,9 +13,7 @@ export const items: Array<Project> = [
 		links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
 		logo: Assets.Unknown,
 		name: 'Slick Portfolio',
-		period: {
-			from: new Date()
-		},
+		period: '2019',
 		skills: getSkills('angular', 'ts', 'tailwind'),
 		type: 'Website Template'
 	},
@@ -29,9 +27,7 @@ export const items: Array<Project> = [
 		links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
 		logo: Assets.Svelte,
 		name: 'Slick Portfolio',
-		period: {
-			from: new Date()
-		},
+		period: '2019',
 		skills: getSkills('svelte', 'ts', 'tailwind', 'sass'),
 		type: 'Website Template',
 		screenshots: [

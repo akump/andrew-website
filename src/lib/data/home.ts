@@ -3,38 +3,22 @@ import { getSkills } from './skills';
 
 export const title = 'Home';
 
-export const name = 'Name';
+export const name = 'Andrew';
 
-export const lastName = 'LastName';
+export const lastName = 'Kump';
 
-export const description =
-	'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, rerum. Debitis accusantium deleniti enim iste dignissimos? Similique, exercitationem! Odit vero, numquam quae ratione maxime sunt reiciendis laudantium quaerat iure ipsum!';
+export const description = `I am an experienced full stack software engineer currently building Water Network Optimization(WNO) on the Xylem Vue platform. WNO is a real time digital twin of a city's water infrastructure built using Svelte, Node.js, GraphQL, Express, PostgreSQL, MongoDB, InfluxDB, Mapbox, Highcharts, and many more technologies all deployed on AWS. I lead all development efforts on the front end, and also develop across the stack. Welcome to my website!`;
 
 export const links: Array<{ platform: Platform; link: string }> = [
-	{ platform: Platform.GitHub, link: 'https://github.com/' },
+	{ platform: Platform.GitHub, link: 'https://github.com/akump/' },
 	{
 		platform: Platform.Linkedin,
-		link: 'https://www.linkedin.com/'
+		link: 'https://www.linkedin.com/in/andrew-kump-85a778105/'
 	},
-	{
-		platform: Platform.Twitter,
-		link: 'https://twitter.com/'
-	},
-	{
-		platform: Platform.StackOverflow,
-		link: 'https://stackoverflow.com/'
-	},
+
 	{
 		platform: Platform.Email,
-		link: 'riadh_adrani@hotmail.fr'
-	},
-	{
-		platform: Platform.Youtube,
-		link: 'https://www.youtube.com'
-	},
-	{
-		platform: Platform.Facebook,
-		link: 'https://www.facebook.com'
+		link: 'kumpandrew@gmail.com'
 	}
 ];
 

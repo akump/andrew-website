@@ -4,10 +4,9 @@
 	import UIcon from '$lib/components/Icon/UIcon.svelte';
 	import SearchPage from '$lib/components/SearchPage.svelte';
 	import { getAssetURL } from '$lib/data/assets';
-
 	import { title, items } from '@data/education';
 	import type { Education } from '$lib/types';
-	import { computeExactDuration, getTimeDiff } from '$lib/utils';
+	import { computeExactDuration } from '$lib/utils';
 	import CardDivider from '$lib/components/Card/CardDivider.svelte';
 
 	let search = '';
@@ -23,8 +22,7 @@
 				it.description.toLowerCase().includes(s) ||
 				it.location.toLowerCase().includes(s) ||
 				it.name.toLowerCase().includes(s) ||
-				it.organization.toLowerCase().includes(s) ||
-				it.subjects.some((it) => it.toLowerCase().includes(s))
+				it.organization.toLowerCase().includes(s)
 			);
 		});
 	};
@@ -63,6 +61,7 @@
 								/>
 								<div class="text-[1.3em]">{education.degree}</div>
 								<div>{education.organization}</div>
+								<div>{education.description}</div>
 								<div class="col text-[0.9em]">
 									<CardDivider />
 									<div class="row items-center gap-2">
@@ -72,14 +71,9 @@
 									<CardDivider />
 									<div class="row items-center gap-2">
 										<UIcon icon="i-carbon-time" />
-										{computeExactDuration(education.period.from, education.period.to)}
+										{education.period}
 									</div>
 									<CardDivider />
-								</div>
-								<div class="row flex-wrap gap-1">
-									{#each education.subjects as subject}
-										<Chip>{subject}</Chip>
-									{/each}
 								</div>
 							</div>
 						</Card>

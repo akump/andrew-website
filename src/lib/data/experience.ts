@@ -4,49 +4,34 @@ import { ContractType, type Experience } from '../types';
 
 export const items: Array<Experience> = [
 	{
-		slug: 'open-sourcer',
-		company: 'Self-employed',
-		description: 'Creating awesome tools for developers.',
-		contract: ContractType.SelfEmployed,
-		type: 'Software Development',
-		location: 'Home',
-		period: { from: new Date() },
-		skills: getSkills('ts', 'js'),
-		name: 'Open Source Developer',
-		color: 'red',
+		slug: 'xylem',
+		company: 'Xylem',
+		description: 'Building Water Network Optimization(WNO)',
+		contract: ContractType.FullTime,
+		type: 'Full Stack Software Engineer',
+		location: 'Remote',
+		period: 'July 2021 - Present',
+		skills: getSkills('ts', 'js', 'graphql'),
+		name: 'Senior Full Stack Software Engineer',
+		color: '#007FA8',
 		links: [],
-		logo: Assets.Unknown,
-		shortDescription: 'Creating awesome tools for developers.'
+		logo: Assets.Xylem,
+		shortDescription: 'Building Water Network Optimization(WNO)'
 	},
 	{
-		slug: 'software-freelance',
-		company: 'Self-employed',
-		description: 'Creating awesome applications for customers.',
-		contract: ContractType.Freelance,
-		type: 'Software Development',
-		location: 'Home',
-		period: { from: new Date() },
+		slug: 'siemens',
+		company: 'Siemens PLM Software',
+		description: 'Building Active Workspace aka Teamcenter',
+		contract: ContractType.FullTime,
+		type: 'Software Engineer',
+		location: 'Milford, Ohio',
+		period: 'May 2019 - July 2021',
 		skills: getSkills('svelte', 'ts', 'sass', 'css', 'html', 'js'),
-		name: 'Freelancer',
-		color: 'blue',
+		name: 'Software Engineer',
+		color: '#009999',
 		links: [],
-		logo: Assets.Unknown,
-		shortDescription: 'Creating awesome applications for customers.'
-	},
-	{
-		slug: 'software-freelance-junior',
-		company: 'Self-employed',
-		description: 'Creating awesome applications for customers.',
-		contract: ContractType.Freelance,
-		type: 'Software Development',
-		location: 'Home',
-		period: { from: new Date(2022, 0, 1), to: new Date() },
-		skills: getSkills('css', 'html', 'js'),
-		name: 'Junior Freelancer',
-		color: 'green',
-		links: [],
-		logo: Assets.Unknown,
-		shortDescription: 'Creating awesome applications for customers.'
+		logo: Assets.Siemens,
+		shortDescription: 'Building Active Workspace aka Teamcenter'
 	}
 ];
 

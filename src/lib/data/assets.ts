@@ -70,7 +70,12 @@ const Assets = {
 	Jest: a('jest.png'),
 	Unocss: a('unocss.svg'),
 	Ruvy: a('ruvy.svg'),
-	Postcss: a('postcss.svg')
+	Postcss: a('postcss.svg'),
+	Xylem: a('xylem.png'),
+	Siemens: a('siemens.png'),
+	GraphQL: a('graphql.png'),
+	UC: a('uc.png'),
+	Playwright: a('playwright.png')
 };
 
 export default Assets;
