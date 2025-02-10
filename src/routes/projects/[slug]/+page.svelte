@@ -2,9 +2,7 @@
 	import { base } from '$app/paths';
 	import { getAssetURL } from '$lib/data/assets';
 	import { title } from '@data/projects';
-
 	import type { Project } from '$lib/types';
-
 	import CardLogo from '$lib/components/Card/CardLogo.svelte';
 	import MainTitle from '$lib/components/MainTitle/MainTitle.svelte';
 	import Markdown from '$lib/components/Markdown.svelte';

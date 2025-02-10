@@ -1,5 +1,4 @@
 <script lang="ts">
-	import Carrousel from '$lib/components/Carrousel/Carrousel.svelte';
 	import Icon from '$lib/components/Icon/Icon.svelte';
 	import MainTitle from '$lib/components/MainTitle/MainTitle.svelte';
 	import { titleSuffix } from '@data/app';
@@ -8,6 +7,8 @@
 	import { useTitle } from '$lib/utils/helpers';
 	import { isBlank } from '@riadh-adrani/utils';
 	import { getPlatfromIcon } from '$lib/utils';
+	import Screenshot from '$lib/components/Screenshot/Screenshot.svelte';
+	import { base } from '$app/paths';
 
 	const isEmail = (email: string): boolean => {
 		const reg =
@@ -23,7 +24,7 @@
 <div
 	class="col self-center flex-1 md:flex-row md:slef-stretch justify-center lg:justify-between items-center p-y-0px p-x-10px"
 >
-	<div class="md:flex-1 gap-10px">
+	<div class="md:flex-1 gap-10px" style="padding-left: 10px;">
 		<MainTitle classes="md:text-left ">{name} {lastName}</MainTitle>
 		<p class="text-[var(--tertiary-text)]  text-center md:text-left text-[1.2em] font-extralight">
 			{description}
@@ -41,5 +42,8 @@
 			{/each}
 		</div>
 	</div>
-	<Carrousel items={skills ?? skillsItems} />
+	<div
+		class="col bg-contain rounded-xl bg-no-repeat bg-contains bg-center"
+		style={`background-image: url(${base}/images/andrew.jpeg); flex: 1; aspect-ratio: 1`}
+	/>
 </div>
