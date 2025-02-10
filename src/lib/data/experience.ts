@@ -40,7 +40,7 @@ export const items: Array<Experience> = [
 		contract: ContractType.Internship,
 		type: 'Software Engineer',
 		location: 'Milford, Ohio',
-		period: 'May 2019 - July 2021',
+		period: 'January 2016 - September 2019',
 		skills: getSkills('svelte', 'ts', 'sass', 'css', 'html', 'js'),
 		name: 'Software Engineer Co-op',
 		color: '#009999',

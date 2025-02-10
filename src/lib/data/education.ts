@@ -9,7 +9,7 @@ export const items: Array<Education> = [
 		logo: Assets.UC,
 		name: '',
 		organization: '',
-		period: '2019',
+		period: '5 year program: 2014 - 2019',
 		shortDescription: '',
 		color: 'red',
 		slug: 'dummy-education-item'
@@ -21,7 +21,7 @@ export const items: Array<Education> = [
 		logo: Assets.Siemens,
 		name: '',
 		organization: '',
-		period: '2016 - 2019',
+		period: 'January 2016 - May 2019',
 		shortDescription: 'test',
 		color: '#009999',
 		slug: 'dummy-education-item-2	'
