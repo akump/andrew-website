@@ -11,6 +11,7 @@ export const items: Array<Education> = [
 		organization: '',
 		period: '2019',
 		shortDescription: '',
+		color: 'red',
 		slug: 'dummy-education-item'
 	},
 	{
@@ -22,6 +23,7 @@ export const items: Array<Education> = [
 		organization: '',
 		period: '2016 - 2019',
 		shortDescription: 'test',
+		color: '#009999',
 		slug: 'dummy-education-item-2	'
 	}
 ];

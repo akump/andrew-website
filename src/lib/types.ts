@@ -71,4 +71,5 @@ export interface Education<S extends string = string> extends Item<S> {
 	location: string;
 	period: string;
 	degree: string;
+	color: string;
 }

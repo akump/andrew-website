@@ -32,6 +32,22 @@ export const items: Array<Experience> = [
 		links: [],
 		logo: Assets.Siemens,
 		shortDescription: 'Building Active Workspace aka Teamcenter'
+	},
+	{
+		slug: 'siemens-coop',
+		company: 'Siemens PLM Software',
+		description: 'Building Active Workspace aka Teamcenter',
+		contract: ContractType.Internship,
+		type: 'Software Engineer',
+		location: 'Milford, Ohio',
+		period: 'May 2019 - July 2021',
+		skills: getSkills('svelte', 'ts', 'sass', 'css', 'html', 'js'),
+		name: 'Software Engineer Co-op',
+		color: '#009999',
+		links: [],
+		logo: Assets.Siemens,
+		shortDescription:
+			'Intern for 2 different teams for 5 school semesters and 3 part time semesters'
 	}
 ];
 
