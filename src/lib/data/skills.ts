@@ -9,7 +9,7 @@ const categories = [
 	defineSkillCategory({ name: 'Programming Languages', slug: 'pro-lang' }),
 	defineSkillCategory({ name: 'Frameworks', slug: 'framework' }),
 	defineSkillCategory({ name: 'Libraries', slug: 'library' }),
-	defineSkillCategory({ name: 'Langauges', slug: 'lang' }),
+	defineSkillCategory({ name: 'Languages', slug: 'lang' }),
 	defineSkillCategory({ name: 'Databases', slug: 'db' }),
 	defineSkillCategory({ name: 'ORMs', slug: 'orm' }),
 	defineSkillCategory({ name: 'DevOps', slug: 'devops' }),
@@ -46,7 +46,7 @@ export const items = [
 	defineSkill({
 		slug: 'ts',
 		color: 'blue',
-		description: 'I have used Typescript on various interal tools and side projects',
+		description: 'I have used Typescript on various internal tools and side projects',
 		logo: Assets.TypeScript,
 		name: 'Typescript',
 		category: 'pro-lang'

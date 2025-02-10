@@ -11,7 +11,7 @@ export const items: Array<Project> = [
 			'Teams extension that had 25,000 users. It has since been taken down since the Microsoft Teams 2.0 release.',
 		links: [{ to: 'https://github.com/akump/MS-Teams-Always-Available', label: 'GitHub' }],
 		logo: Assets.Teams,
-		name: 'Microsoft Teams Chrome Extenion',
+		name: 'Microsoft Teams Chrome Extension',
 		period: '2021 - 2024',
 		skills: getSkills('angular', 'ts', 'tailwind'),
 		type: 'Chrome Extension'
@@ -22,7 +22,7 @@ export const items: Array<Project> = [
 		description:
 			'A Vercel-like developer portfolio website template made with Typescript and SvelteKit.',
 		shortDescription:
-			'I created and most importantly maintaned a GroupMe dark theme until GroupMe created one themselves.',
+			'I created and most importantly maintained a GroupMe dark theme until GroupMe created one themselves.',
 		links: [{ to: 'https://github.com/akump/GroupMeDarkTheme', label: 'GitHub' }],
 		logo: Assets.GroupMe,
 		name: 'GroupMe Dark Theme',
