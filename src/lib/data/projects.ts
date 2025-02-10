@@ -6,12 +6,11 @@ export const items: Array<Project> = [
 	{
 		slug: 'microsoft-teams-chrome-extension',
 		color: '#8091F2',
-		description:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
+		description: 'Built a Chrome extensions for teams that provides various functionality',
 		shortDescription:
 			'Teams extension that had 25,000 users. It has since been taken down since the Microsoft Teams 2.0 release',
 		links: [{ to: 'https://github.com/akump/MS-Teams-Always-Available', label: 'GitHub' }],
-		logo: Assets.Unknown,
+		logo: Assets.Teams,
 		name: 'Microsoft Teams Chrome Extenion',
 		period: '2021 - 2024',
 		skills: getSkills('angular', 'ts', 'tailwind'),
@@ -25,30 +24,27 @@ export const items: Array<Project> = [
 		shortDescription:
 			'I created and most importantly maintaned a GroupMe dark theme until GroupMe created one themselves',
 		links: [{ to: 'https://github.com/akump/GroupMeDarkTheme', label: 'GitHub' }],
-		logo: Assets.Unknown,
+		logo: Assets.GroupMe,
 		name: 'GroupMe Dark Theme',
 		period: '2020 - 2024',
 		skills: getSkills('svelte', 'ts', 'tailwind', 'sass'),
 		type: 'Chrome Extension',
-		screenshots: [
-			{
-				label: 'screen 1',
-				src: 'https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZ3JhbW1pbmd8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60'
-			}
-		]
+		screenshots: []
 	},
 	{
 		slug: 'andrews-recipes',
 		color: 'black',
-		description:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
+		description: 'Built this website in svelte and automated the adding of new recipes',
 		shortDescription: 'Simple website where my friends and family can easily find my recipes',
-		links: [{ to: 'https://github.com/akump/andrews-recipes', label: 'GitHub' }],
-		logo: Assets.Unknown,
+		links: [
+			{ to: 'https://github.com/akump/andrews-recipes', label: 'GitHub' },
+			{ to: 'https://andrews-recipes.surge.sh/', label: 'Link' }
+		],
+		logo: Assets.AndrewsRecipes,
 		name: "Andrew's Recipes",
 		period: '2021 - Present',
-		skills: getSkills('angular', 'ts', 'tailwind'),
-		type: 'Website'
+		skills: getSkills('svelte'),
+		type: 'Personal Website'
 	}
 ];
 

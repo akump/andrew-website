@@ -73,7 +73,7 @@
 										<UIcon icon="i-carbon-time" />
 										{education.period}
 									</div>
-									<CardDivider />
+									<!-- <CardDivider /> -->
 								</div>
 							</div>
 						</Card>

@@ -6,7 +6,7 @@ export const items: Array<Experience> = [
 	{
 		slug: 'xylem',
 		company: 'Xylem',
-		description: 'Building Water Network Optimization(WNO)',
+		description: 'Building Water Network Optimization',
 		contract: ContractType.FullTime,
 		type: 'Full Stack Software Engineer',
 		location: 'Remote',
@@ -16,7 +16,7 @@ export const items: Array<Experience> = [
 		color: '#007FA8',
 		links: [],
 		logo: Assets.Xylem,
-		shortDescription: 'Building Water Network Optimization(WNO)'
+		shortDescription: 'Building Water Network Optimization'
 	},
 	{
 		slug: 'siemens',
@@ -47,7 +47,7 @@ export const items: Array<Experience> = [
 		links: [],
 		logo: Assets.Siemens,
 		shortDescription:
-			'Intern for 2 different teams for 5 school semesters and 3 part time semesters'
+			'Interned for two different teams for a total five school semesters and three part time semesters'
 	}
 ];
 

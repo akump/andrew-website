@@ -127,6 +127,22 @@ export const items = [
 		logo: Assets.Playwright,
 		name: 'Playwright',
 		category: 'test'
+	}),
+	defineSkill({
+		slug: 'selenium',
+		color: '',
+		description: 'Used selenium at siemens',
+		logo: '',
+		name: 'Selenium',
+		category: 'test'
+	}),
+	defineSkill({
+		slug: 'docker',
+		color: 'blue',
+		description: 'Using Docker at Xylem',
+		logo: Assets.Docker,
+		name: 'Docker',
+		category: 'devops'
 	})
 ] as const;
 

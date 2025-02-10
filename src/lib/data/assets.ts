@@ -75,7 +75,10 @@ const Assets = {
 	Siemens: a('siemens.png'),
 	GraphQL: a('graphql.png'),
 	UC: a('uc.png'),
-	Playwright: a('playwright.png')
+	Playwright: a('playwright.png'),
+	Teams: a('teams.png'),
+	GroupMe: a('groupme.png'),
+	AndrewsRecipes: a('andrews-recipes.png')
 };
 
 export default Assets;

@@ -9,7 +9,7 @@ export const items: Array<Education> = [
 		logo: Assets.UC,
 		name: '',
 		organization: '',
-		period: '5 year program: 2014 - 2019',
+		period: '5 year program: August 2014 - May 2019',
 		shortDescription: '',
 		color: 'red',
 		slug: 'dummy-education-item'
