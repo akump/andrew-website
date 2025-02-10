@@ -1,0 +1,41 @@
+import{A as i}from"./index.efe48376.js";const m=`# Svelte
+
+---
+
+[\`Svelte\`](https://svelte.dev/) is a free and open-source front end component framework or language created by Rich Harris and maintained by the Svelte core team members. Svelte is not a monolithic JavaScript library imported by applications: instead, Svelte compiles HTML templates to specialized code that manipulates the DOM directly, which may reduce the size of transferred files and give better client performance. Application code is also processed by the compiler, inserting calls to automatically recompute data and re-render UI elements when the data they depend on is modified. This also avoids the overhead associated with runtime intermediate representations, such as virtual DOM, unlike traditional frameworks (such as React and Vue) which carry out the bulk of their work at runtime, i.e. in the browser.
+
+The compiler itself is written in TypeScript. Its source code is licensed under MIT License and hosted on GitHub.
+
+<br/>
+
+Svelte is :
+
+- compiled : Svelte shifts as much work as possible out of the browser and into your build step. No more manual optimisations — just faster, more efficient apps.
+- compact : Write breathtakingly concise components using languages you already know — HTML, CSS and JavaScript. Oh, and your application bundles will be tiny as well.
+- complete : Built-in scoped styling, state management, motion primitives, form bindings and more — don't waste time trawling npm for the bare essentials. It's all here.
+
+<br/>
+
+## Example
+
+\`\`\`ts
+<script>
+    let count = 1;
+    $: doubled = count * 2;
+<\/script>
+
+<p>{count} * 2 = {doubled}</p>
+
+<button on:click={() => count = count + 1}>Count</button>
+\`\`\`
+
+### Heading 3
+
+#### Heading 4
+
+##### Heading 5
+
+###### Heading 6
+
+> Svelte is a free and open-source front end component framework or language created by Rich Harris and maintained by the Svelte core team members.
+`;function d(t,...s){const n=Object.assign({},t);return Object.keys(n).forEach(r=>{s.includes(r)&&delete n[r]}),n}const a=t=>t,g=[a({name:"Programming Languages",slug:"pro-lang"}),a({name:"Frameworks",slug:"framework"}),a({name:"Libraries",slug:"library"}),a({name:"Langauges",slug:"lang"}),a({name:"Databases",slug:"db"}),a({name:"ORMs",slug:"orm"}),a({name:"DevOps",slug:"devops"}),a({name:"Testing",slug:"test"}),a({name:"Dev Tools",slug:"devtools"}),a({name:"Markup & Style",slug:"markup-style"}),a({name:"Design",slug:"design"}),a({name:"Soft Skills",slug:"soft"})],e=t=>{const s=d(t,"category");return t.category&&(s.category=g.find(n=>n.slug===t.category)),s},l=[e({slug:"js",color:"yellow",description:"I've been using Javascript for 8+ years now",logo:i.JavaScript,name:"Javascript",category:"pro-lang"}),e({slug:"ts",color:"blue",description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.",logo:i.TypeScript,name:"Typescript",category:"pro-lang"}),e({slug:"css",color:"blue",description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.",logo:i.CSS,name:"CSS",category:"markup-style"}),e({slug:"html",color:"orange",description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.",logo:i.HTML,name:"HTML",category:"markup-style"}),e({slug:"sass",color:"pink",description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.",logo:i.Sass,name:"Sass",category:"markup-style"}),e({slug:"reactjs",color:"cyan",description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.",logo:i.ReactJs,name:"React Js",category:"library"}),e({slug:"svelte",color:"orange",description:m,logo:i.Svelte,name:"Svelte",category:"library"}),e({slug:"graphql",color:"orange",description:"Using GraphQL at xylem",logo:i.GraphQL,name:"GraphQL",category:"library"}),e({slug:"postgres",color:"#336791",description:"Using pg at Xylem",logo:i.PostgreSQL,name:"PostgreSQL",category:"db"}),e({slug:"mongodb",color:"#4DB33D",description:"Using mongo at Xylem",logo:i.MongoDB,name:"MongoDB",category:"db"}),e({slug:"playwright",color:"blue",description:"Using playwright at Xylem",logo:i.Playwright,name:"Playwright",category:"test"}),e({slug:"selenium",color:"",description:"Used selenium at siemens",logo:"",name:"Selenium",category:"test"}),e({slug:"docker",color:"blue",description:"Using Docker at Xylem",logo:i.Docker,name:"Docker",category:"devops"})],b="Skills",h=(...t)=>l.filter(s=>t.includes(s.slug)),v=t=>{const s=[],n=[];return l.forEach(r=>{if(t.trim()&&!r.name.toLowerCase().includes(t.trim().toLowerCase()))return;if(!r.category){n.push(r);return}let o=s.find(c=>{var u;return c.category.slug===((u=r.category)==null?void 0:u.slug)});o||(o={items:[],category:r.category},s.push(o)),o.items.push(r)}),n.length!==0&&s.push({category:{name:"Others",slug:"others"},items:n}),s};export{v as a,h as g,l as i,b as t};
