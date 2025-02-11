@@ -6,7 +6,7 @@
 	import { items as skillsItems } from '@data/skills';
 	import { useTitle } from '$lib/utils/helpers';
 	import { isBlank } from '@riadh-adrani/utils';
-	import { getPlatfromIcon } from '$lib/utils';
+	import { getPlatformIcon } from '$lib/utils';
 	import Screenshot from '$lib/components/Screenshot/Screenshot.svelte';
 	import { base } from '$app/paths';
 
@@ -37,7 +37,7 @@
 					target="_blank"
 					rel="noreferrer"
 				>
-					<Icon icon={getPlatfromIcon(link.platform)} color={'var(--accent-text)'} size={'20px'} />
+					<Icon icon={getPlatformIcon(link.platform)} color={'var(--accent-text)'} size={'20px'} />
 				</a>
 			{/each}
 		</div>

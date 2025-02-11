@@ -10,7 +10,7 @@ The compiler itself is written in TypeScript. Its source code is licensed under 
 
 Svelte is :
 
-- compiled : Svelte shifts as much work as possible out of the browser and into your build step. No more manual optimisations — just faster, more efficient apps.
+- compiled : Svelte shifts as much work as possible out of the browser and into your build step. No more manual optimizations — just faster, more efficient apps.
 - compact : Write breathtakingly concise components using languages you already know — HTML, CSS and JavaScript. Oh, and your application bundles will be tiny as well.
 - complete : Built-in scoped styling, state management, motion primitives, form bindings and more — don't waste time trawling npm for the bare essentials. It's all here.
 
